@@ -45,11 +45,15 @@
         }
     </style>
 <script>
-function click(){
-	var person=prompt("请输入MCBBS的官方域名（带www）");
-	if (person!=null && person="www.mcbbs.net"){
-	    a="成功复活MCBBS！";
-	    document.getElementById("click").innerHTML=a;
+function mcbbsclick(){
+	var a=prompt("请输入MCBBS的官方域名（带www）");
+	if (a!=null && a="www.mcbbs.net"){
+	    b="成功复活MCBBS！";
+	    document.getElementById().innerHTML=b;
+	    else {
+		b="复活MCBBS失败！";
+	    	document.getElementById().innerHTML=b;
+	    }
 	}
 }
 </script>
@@ -57,9 +61,9 @@ function click(){
 
 <body>
     <h1>点击复活 MCBBS</h1>
-    <h2 id="click">😭MCBBS你怎么似了啊😭</h2>
+    <h2>😭MCBBS你怎么似了啊😭</h2>
     <center>
-        <button onclick="click()">点击复活 MCBBS</button>
+        <button onclick="mcbbsclick()">点击复活 MCBBS</button>
     </center>
     <hr>
     <h2>请关注<a href="#">此页面</a>或<a href="https://mcbbs.rip/">晋级赛</a>获得最新的消息</h2>
