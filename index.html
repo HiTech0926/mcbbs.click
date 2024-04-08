@@ -49,10 +49,10 @@ function mcbbsclick(){
 	var a=prompt("请输入MCBBS的官方域名（带www）");
 	if (a!=null && a="www.mcbbs.net"){
 	    b="成功复活MCBBS！";
-	    document.getElementById().innerHTML=b;
+	    document.getElementById("mcbbs").innerHTML=b;
 	    else {
 		b="复活MCBBS失败！";
-	    	document.getElementById().innerHTML=b;
+	    	document.getElementById("mcbbs").innerHTML=b;
 	    }
 	}
 }
@@ -62,6 +62,7 @@ function mcbbsclick(){
 <body>
     <h1>点击复活 MCBBS</h1>
     <h2>😭MCBBS你怎么似了啊😭</h2>
+    <p id="mcbbs"></p>
     <center>
         <button onclick="mcbbsclick()">点击复活 MCBBS</button>
     </center>
